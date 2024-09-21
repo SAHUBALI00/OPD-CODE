@@ -1,0 +1,23 @@
+nav{
+    background-color: blueviolet;
+    
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    background-color: aqua;
+    padding: 15px;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
+    
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+}

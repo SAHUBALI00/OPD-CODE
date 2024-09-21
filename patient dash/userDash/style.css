@@ -1,0 +1,123 @@
+body{
+    background-color: wheat;
+}
+.container{
+    margin: 10px;
+    height: 90vh;
+    width: 95%;
+    display: flex;
+    background-color: wheat;
+    margin: auto;
+    margin-top: 35px;
+
+}
+.left{
+    background-color: blue;
+    width: 22vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centre{
+    background-color: azure;
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.right{
+    background-color:white;
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.details{
+    width: 20vw;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav{
+    width: 20vw;
+    height: 55vh;
+   background-color: rgb(55, 55, 254);
+   border-radius: 30px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.nav ul li{
+   margin: 15px;
+   padding: 15px;
+  list-style: none;
+}
+.details img{
+    height: 8em;
+}
+.box{
+    width: 32vw;
+    height: 25vh;
+    border: 10px solid rgb(96, 159, 168);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box:hover{
+   cursor: pointer;
+}
+.box img{
+    height: 15vh;
+}
+.btn{
+    width: 27vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: red;
+}
+.search{
+    width: 27vw;
+    height: 10vh;
+    background-color: rgb(221, 209, 233);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+}
+
+.roboBtn{
+    width: 27vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.roboImg{
+   
+    height: 40vh;
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="container">
+         <div class="left">
+            <div class="details">
+                <img src="person.png" alt="">
+                <span>Stephanie Jones</span>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>ACCOUNT DETAILS</li>
+                    <li>ONGOING PRESCRIPTION</li>
+                    <li>NEXT APPOINTMENT</li>
+                    <li>NOTIFICATIONS</li>
+                </ul>
+            </div>
+         </div>
+        <div class="centre">
+            <div class="box ">
+                <img src="s_-medical-examination-report.svg" alt="">
+              <span>Electronic Medical Records (EMR)</span>
+            </div>
+            <div class="box">
+                <img src="medical-examination-report-5.svg" alt="">
+                <span>ON Going Treatment & Status</span></div>
+            <div class="box">
+                <img src="health-management-2.svg" alt="">
+                <span>Diagnosed History</span></div>
+        </div>
+        <div class="right">
+            <div class="btn">
+                <button><a style="text-decoration: none;" href="/hospital-main/hospital.html" >BOOK AN APPOINTMENT</a> </button>
+            </div>
+            <div class="search"><a style="text-decoration: none;" href="/hospital-main/hospital.html" >  SEARCH FOR A HOSPITAL</a></div>
+            <div class="roboBtn"> 
+                <button id="init">Ask Mr.MedSys</button>
+                <img src="doctor-robot-robot-medical-ai-doctor-nurse-stethoscope-1024.webp" alt="" class="roboImg">
+            </div>
+            <div id="test" style="position: fixed;top: 4rem;right: 30rem;display: none;">
+                <div class="child" id="chatbot">
+                    <div class="header">
+                        <div class="h-child">
+                            <img src="/chatbot/doctor-robot-robot-medical-ai-doctor-nurse-stethoscope-1024.webp" alt="avatar" id="avatar">
+                            <div>
+                                <span class="name">Chatbot</span>
+                                <br>
+                                <span style="color:lawngreen">online</span>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="refBtn"><i class="fa fa-refresh" onclick="initChat()"></i></button>
+                        </div>
+                    </div>
+        
+                    <div id="chat-box">
+        
+                    </div>
+                </div>
+            </div>
+        
+            
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+</body>
+<script src="chatbot.js"></script>
+</html>

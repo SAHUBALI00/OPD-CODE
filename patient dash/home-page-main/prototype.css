@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header .logo {
+    display: flex;
+    align-items: center;
+    
+}
+/* .header .Medlogo img {
+    height: 200px;
+   
+} */
+.header .contact-info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.header .contact-info i {
+    margin-right: 5px;
+}
+.header .contact-info div {
+    margin-right: 20px;
+}
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+.header .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+.header .nav a:hover {
+    color: #007bff;
+}
+.header .nav .search {
+    margin-left: 20px;
+}
+.header .nav .search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.hero {
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: left;
+    position: relative;
+}
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.hero .content {
+    max-width: 600px;
+}
+.hero .content h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+.hero .content p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.hero .content .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+.hero .content .btn:hover {
+    background-color: #555;
+}
+.hero .image {
+    max-width: 500px;
+}
+.hero .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.service-selection {
+    background-color: #00c6ff;
+    padding: 20px 0;
+    text-align: center;
+}
+.service-selection .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.service-selection .select-box {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.service-selection .select-box select {
+    border: none;
+    background: none;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.service-selection .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+.service-selection .btn:hover {
+    background-color: #555;
+}
+nav{
+    text-decoration: none;
+}
+.login{
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #41414147;
+    text-decoration:white;
+    border-radius: 5px;
+    display: inline-block;
+}

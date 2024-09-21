@@ -1,0 +1,71 @@
+.Hname{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Hname img{
+    width: 10vw;
+    height: 15vh;
+}
+.beds{
+    background-color: grey;
+    max-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    overflow-y: scroll;
+}
+.cardP{
+    background-color: skyblue;
+    width: 20vw;
+    height: 17vh;
+   margin-top: 80px;
+   margin-left: 5px;
+   border-radius: 15px ;
+    position: relative;
+    z-index: 1;
+   
+   
+}
+.cardP:hover{
+    cursor: pointer
+}
+.circle{
+    background-color:azure;
+    width: 180px;
+    height: 70px;
+    text-align: center;
+    border-radius: 20%;
+    position:absolute;
+    bottom: 115px;
+    right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.Bimg img{
+    width: 80px;
+    height: 120px;
+}
+.Bimg{
+    position: absolute;
+    bottom: 100px;
+   right: 180px;
+}
+.profile{
+    height: 140px;
+    width: 80px;
+}
+.Pdetails{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    position: absolute;
+    bottom: -25px;
+}
+.Pdetails li{
+    list-style: none;
+}
